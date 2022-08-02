@@ -6,6 +6,18 @@ variable "AWS_REGION" {
 default = "us-east-1"
 }
 
+variable "AMI_ID" {
+default = "ami-0b0ea68c435eb488d"
+}
+
+variable "INSTANCE_TYPE" {
+default = "t2.micro"  
+}
+
+variable "INSTANCE_NAME" {
+default = "demoinstance"
+}
+
 #variable "Security_Group"{
 #    type = list
 #    default = ["sg-24076", "sg-90890", "sg-456789"]
