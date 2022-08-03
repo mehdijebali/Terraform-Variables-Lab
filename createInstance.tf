@@ -8,5 +8,5 @@ resource "aws_instance" "MyFirstInstnace" {
     Name = var.INSTANCE_NAME
   }
 
-#  security_groups = var.Security_Group
+  security_groups = var.Security_Group
 }
