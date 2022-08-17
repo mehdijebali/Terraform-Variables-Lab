@@ -2,7 +2,7 @@
 Variables are necessary to parameterizing our infrastructure deployments using Terraform. It enables user to pass in configuration values at the time of deployment, so we can use the same Terraform ressource declarations with slightly different configuration. 
 in this demo, we deploy an EC2 instance by using input variables stored in **variables.tf** file. These variables are defined as a block that contains the variable name and other parameters. 
 We used two types of input variable:
-## Primituve type
+## Primitive type
 ```
 variable "INSTANCE_TYPE" {
 default = "t2.micro"  
